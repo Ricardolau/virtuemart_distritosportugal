@@ -1,0 +1,37 @@
+*** OBJETIVO
+AÑADIR REGISTRO DE DISTRITOS (ESTADOS) DE PORTUGAL A VIRTUEMART_STATES
+*** AUTOR
+Empresa: Soluciones Vigo
+Autor: Ricardo Carpintero
+*** DESCRIPCIÓN Y MÁS INFORMACION
+Copia 22 Junio de 2015 entrada de 
+http://ayuda.svigo.es/index.php/programacion-2/cms/joomla/componentes/139-anadir-distritos-o-estados-de-portugal-a-virtuemart 
+
+
+ Hoy nos encontramos con el problema que uno de nuestros clientes nos dice que en su tienda creada con virtuemart version 3.0.6 , pero ya actualizada a 3.0.8 no trae en la tabla de países los estados de Portugal.
+
+Por ello creo este Post y añado un repositorio en git con la tabla que debemos añadir con los estado ( Distritos ) de Portugal.
+
+ANTES DE AÑADIR LOS REGISTROS A LA TABLA VIRTUEMART STATES
+La tabla que vamos incrementar (añadir registros )es :
+
+prefijo_virtuemart_states
+
+Recordar: prefijo_ cambia en cada instalación.
+
+Antes de hacer nada, recomiendo que veamos:
+
+- Cual es prefijo de nuestra instalación.
+
+- Lo cambiemos en el fichero prefijo_virtuemart_states que os facilito en nuestro repositorio github.
+
+- Comprobar que en la tabla virtuemart_countries que el id 171 es Portugal , ya que sino os darrá problemas fijo.
+
+Os comento que de momento no probamos a añadir esos campo automaticamente, pero lo  haremos y ya continuaremos con con este post.
+
+De momento os dejo el sql para poder hacerlo, ya que añadir estado a Virtuemart es relativamente sencillo pero da alguno quebraderos de cabeza con los codigo estado (2) y codigo estado(3) donde deben ser únicos.
+
+Nota:
+
+Seguramente el codigo estado(3) se deba cambiar, ya que no encontramos el criterio por el que virtuemart quiere crealos y los creamos a nuestro gusto.
+
