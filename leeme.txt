@@ -5,8 +5,7 @@ Empresa: Soluciones Vigo
 Autor: Ricardo Carpintero
 *** DESCRIPCIÓN Y MÁS INFORMACION
 Copia 22 Junio de 2015 entrada de 
-http://ayuda.svigo.es/index.php/programacion-2/cms/joomla/componentes/139-anadir-distritos-o-estados-de-portugal-a-virtuemart 
-
+http://ayuda.svigo.es/index.php/programacion-2/cms/joomla/componentes/virtuemart/139-anadir-distritos-o-estados-de-paises-a-virtuemart
 
  Hoy nos encontramos con el problema que uno de nuestros clientes nos dice que en su tienda creada con virtuemart version 3.0.6 , pero ya actualizada a 3.0.8 no trae en la tabla de países los estados de Portugal.
 
